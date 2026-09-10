@@ -4,13 +4,24 @@
 
 Cargo subcommand to select and execute binary/example targets 📦
 
-![cargo-selector](https://repo.x-cmd.io/cargo-selector.svg)
+![cargo-selector](https://repo.x-cmd.io/cargo-selector.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install cargo-selector
 ```
+
+## 代码规模
+
+合计: **787** 行代码（覆盖前 5 种语言、共 **12** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 717 | 1 | 102 | 7 |
+| Toml | 63 | 0 | 5 | 3 |
+| Yaml | 7 | 0 | 0 | 1 |
+| Markdown | 0 | 63 | 32 | 1 |
 
 ## 源代码
 
@@ -31,19 +42,11 @@ x install cargo-selector
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 2 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 360d | 2025-09-15 | 0 | 1 | 0 | 1 | 0 | 21 |
-
-## 代码规模
-
-合计: **787** 行代码（覆盖前 5 种语言、共 **12** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 717 | 1 | 102 | 7 |
-| Toml | 63 | 0 | 5 | 3 |
-| Yaml | 7 | 0 | 0 | 1 |
-| Markdown | 0 | 63 | 32 | 1 |
+| last720d | 2024-09-20 | 0 | 2 | 0 | 2 | 1 | 76 |
 
 ## 改进这些数据
 
@@ -54,4 +57,4 @@ cargo-selector 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/in
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:59:39Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:27:13Z._
