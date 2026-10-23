@@ -1,0 +1,12 @@
+- repo: aur
+  srcname: cargo-selector
+  binname: cargo-selector
+  visiblename: cargo-selector
+  version: 0.10.1
+  origversion: 0.10.1-1
+  status: unique
+  summary: Cargo subcommand to select and execute binary/example targets
+  maintainers:
+    - orhun@aur
+  licenses:
+    - MIT
